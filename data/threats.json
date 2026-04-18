@@ -1,0 +1,800 @@
+[
+  {
+    "id": 1,
+    "keyword": "credit card dump",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Selling stolen credit card data"
+  },
+  {
+    "id": 2,
+    "keyword": "cvv shop",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Marketplace for stolen card CVVs"
+  },
+  {
+    "id": 3,
+    "keyword": "bank login access",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Unauthorized bank account access"
+  },
+  {
+    "id": 4,
+    "keyword": "paypal hacked account",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Compromised PayPal accounts"
+  },
+  {
+    "id": 5,
+    "keyword": "crypto wallet hack",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Access to stolen crypto wallets"
+  },
+  {
+    "id": 6,
+    "keyword": "database leak",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Large database leak"
+  },
+  {
+    "id": 7,
+    "keyword": "email dump",
+    "category": "data breach",
+    "severity": "medium",
+    "description": "Email credentials exposed"
+  },
+  {
+    "id": 8,
+    "keyword": "password dump",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Leaked passwords"
+  },
+  {
+    "id": 9,
+    "keyword": "leaked credentials",
+    "category": "data breach",
+    "severity": "high",
+    "description": "User credentials leaked"
+  },
+  {
+    "id": 10,
+    "keyword": "user data breach",
+    "category": "data breach",
+    "severity": "high",
+    "description": "User data exposed online"
+  },
+  {
+    "id": 11,
+    "keyword": "phishing kit",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Tools for phishing attacks"
+  },
+  {
+    "id": 12,
+    "keyword": "fake login page",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Cloned login pages"
+  },
+  {
+    "id": 13,
+    "keyword": "email phishing",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Phishing email campaigns"
+  },
+  {
+    "id": 14,
+    "keyword": "otp bypass",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Bypassing OTP verification"
+  },
+  {
+    "id": 15,
+    "keyword": "social engineering attack",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Manipulating users for data"
+  },
+  {
+    "id": 16,
+    "keyword": "ransomware access",
+    "category": "malware",
+    "severity": "high",
+    "description": "Deploying ransomware"
+  },
+  {
+    "id": 17,
+    "keyword": "trojan builder",
+    "category": "malware",
+    "severity": "high",
+    "description": "Creating trojan malware"
+  },
+  {
+    "id": 18,
+    "keyword": "keylogger tool",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Capturing keystrokes"
+  },
+  {
+    "id": 19,
+    "keyword": "exploit kit",
+    "category": "malware",
+    "severity": "high",
+    "description": "Exploiting vulnerabilities"
+  },
+  {
+    "id": 20,
+    "keyword": "zero day exploit",
+    "category": "malware",
+    "severity": "high",
+    "description": "Unknown vulnerability exploit"
+  },
+  {
+    "id": 21,
+    "keyword": "admin panel access",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Admin access sale"
+  },
+  {
+    "id": 22,
+    "keyword": "rdp access",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Remote desktop access"
+  },
+  {
+    "id": 23,
+    "keyword": "ssh brute force",
+    "category": "unauthorized access",
+    "severity": "medium",
+    "description": "Brute forcing SSH login"
+  },
+  {
+    "id": 24,
+    "keyword": "backdoor access",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Hidden system access"
+  },
+  {
+    "id": 25,
+    "keyword": "system compromise",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Complete system takeover"
+  },
+  {
+    "id": 26,
+    "keyword": "combo list",
+    "category": "data breach",
+    "severity": "low",
+    "description": "Username-password lists"
+  },
+  {
+    "id": 27,
+    "keyword": "logs marketplace",
+    "category": "data breach",
+    "severity": "low",
+    "description": "Selling stolen logs"
+  },
+  {
+    "id": 28,
+    "keyword": "cracked accounts",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Hacked user accounts"
+  },
+  {
+    "id": 29,
+    "keyword": "fullz data sale",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Full identity data sale"
+  },
+  {
+    "id": 30,
+    "keyword": "identity theft",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Stealing identities"
+  },
+  {
+    "id": 31,
+    "keyword": "sim swap attack",
+    "category": "fraud",
+    "severity": "high",
+    "description": "SIM hijacking attack"
+  },
+  {
+    "id": 32,
+    "keyword": "telegram scam",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Scams via messaging apps"
+  },
+  {
+    "id": 33,
+    "keyword": "nft fraud",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Fake NFT transactions"
+  },
+  {
+    "id": 34,
+    "keyword": "crypto scam",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Crypto fraud schemes"
+  },
+  {
+    "id": 35,
+    "keyword": "credential stuffing",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Automated login attempts"
+  },
+  {
+    "id": 36,
+    "keyword": "cloud data leak",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Cloud storage exposed"
+  },
+  {
+    "id": 37,
+    "keyword": "api key exposed",
+    "category": "data breach",
+    "severity": "medium",
+    "description": "API keys leaked"
+  },
+  {
+    "id": 38,
+    "keyword": "corporate breach",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Corporate systems breached"
+  },
+  {
+    "id": 39,
+    "keyword": "data scraping",
+    "category": "data breach",
+    "severity": "low",
+    "description": "Unauthorized data collection"
+  },
+  {
+    "id": 40,
+    "keyword": "leaked database backup",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Backup files exposed"
+  },
+  {
+    "id": 41,
+    "keyword": "botnet access",
+    "category": "malware",
+    "severity": "high",
+    "description": "Control of infected machines"
+  },
+  {
+    "id": 42,
+    "keyword": "ddos service",
+    "category": "malware",
+    "severity": "medium",
+    "description": "DDoS attack services"
+  },
+  {
+    "id": 43,
+    "keyword": "malware loader",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Loading malware payloads"
+  },
+  {
+    "id": 44,
+    "keyword": "spyware tool",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Spying software"
+  },
+  {
+    "id": 45,
+    "keyword": "rootkit install",
+    "category": "malware",
+    "severity": "high",
+    "description": "Installing rootkits"
+  },
+  {
+    "id": 46,
+    "keyword": "vpn account dump",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Leaked VPN accounts"
+  },
+  {
+    "id": 47,
+    "keyword": "netflix account sale",
+    "category": "fraud",
+    "severity": "low",
+    "description": "Shared account sales"
+  },
+  {
+    "id": 48,
+    "keyword": "spotify premium crack",
+    "category": "fraud",
+    "severity": "low",
+    "description": "Cracked streaming accounts"
+  },
+  {
+    "id": 49,
+    "keyword": "gaming account hack",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Game account theft"
+  },
+  {
+    "id": 50,
+    "keyword": "steam account dump",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Stolen Steam accounts"
+  },
+  {
+    "id": 51,
+    "keyword": "darknet listing",
+    "category": "fraud",
+    "severity": "low",
+    "description": "Illegal marketplace listing"
+  },
+  {
+    "id": 52,
+    "keyword": "fake id generator",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Generating fake identities"
+  },
+  {
+    "id": 53,
+    "keyword": "carding tutorial",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Learning card fraud"
+  },
+  {
+    "id": 54,
+    "keyword": "account checker tool",
+    "category": "fraud",
+    "severity": "low",
+    "description": "Checking stolen accounts"
+  },
+  {
+    "id": 55,
+    "keyword": "credential validator",
+    "category": "fraud",
+    "severity": "low",
+    "description": "Validating leaked credentials"
+  },
+  {
+    "id": 56,
+    "keyword": "wordpress exploit",
+    "category": "malware",
+    "severity": "medium",
+    "description": "WordPress vulnerability exploit"
+  },
+  {
+    "id": 57,
+    "keyword": "sql injection script",
+    "category": "malware",
+    "severity": "high",
+    "description": "SQL injection attacks"
+  },
+  {
+    "id": 58,
+    "keyword": "xss exploit",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Cross-site scripting attack"
+  },
+  {
+    "id": 59,
+    "keyword": "privilege escalation",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Gaining higher access rights"
+  },
+  {
+    "id": 60,
+    "keyword": "network intrusion",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Unauthorized network entry"
+  },
+  {
+    "id": 61,
+    "keyword": "encrypted data leak",
+    "category": "data breach",
+    "severity": "medium",
+    "description": "Encrypted files leaked"
+  },
+  {
+    "id": 62,
+    "keyword": "backup file exposure",
+    "category": "data breach",
+    "severity": "medium",
+    "description": "Backup files exposed"
+  },
+  {
+    "id": 63,
+    "keyword": "customer database leak",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Customer data exposed"
+  },
+  {
+    "id": 64,
+    "keyword": "medical records leak",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Healthcare data leak"
+  },
+  {
+    "id": 65,
+    "keyword": "financial records leak",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Financial data exposed"
+  },
+  {
+    "id": 66,
+    "keyword": "sms phishing",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Phishing via SMS"
+  },
+  {
+    "id": 67,
+    "keyword": "whatsapp scam",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Messaging app scams"
+  },
+  {
+    "id": 68,
+    "keyword": "romance scam",
+    "category": "fraud",
+    "severity": "low",
+    "description": "Social engineering scams"
+  },
+  {
+    "id": 69,
+    "keyword": "gift card fraud",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Fraud using gift cards"
+  },
+  {
+    "id": 70,
+    "keyword": "invoice fraud",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Fake invoice scams"
+  },
+  {
+    "id": 71,
+    "keyword": "iot botnet",
+    "category": "malware",
+    "severity": "high",
+    "description": "Botnet using IoT devices"
+  },
+  {
+    "id": 72,
+    "keyword": "android malware",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Malware targeting Android"
+  },
+  {
+    "id": 73,
+    "keyword": "windows exploit",
+    "category": "malware",
+    "severity": "high",
+    "description": "Windows system exploit"
+  },
+  {
+    "id": 74,
+    "keyword": "macos malware",
+    "category": "malware",
+    "severity": "medium",
+    "description": "MacOS malware attack"
+  },
+  {
+    "id": 75,
+    "keyword": "browser exploit",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Browser vulnerability attack"
+  },
+  {
+    "id": 76,
+    "keyword": "ftp access",
+    "category": "unauthorized access",
+    "severity": "medium",
+    "description": "Unauthorized FTP access"
+  },
+  {
+    "id": 77,
+    "keyword": "vpn breach",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "VPN compromised"
+  },
+  {
+    "id": 78,
+    "keyword": "admin credential leak",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Admin credentials leaked"
+  },
+  {
+    "id": 79,
+    "keyword": "database injection",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Database injection attacks"
+  },
+  {
+    "id": 80,
+    "keyword": "webshell upload",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Uploading malicious shells"
+  },
+  {
+    "id": 81,
+    "keyword": "card skimming",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Skimming card data"
+  },
+  {
+    "id": 82,
+    "keyword": "atm jackpotting",
+    "category": "fraud",
+    "severity": "high",
+    "description": "ATM cash extraction attacks"
+  },
+  {
+    "id": 83,
+    "keyword": "loan fraud",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Fake loan schemes"
+  },
+  {
+    "id": 84,
+    "keyword": "insurance fraud",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "False insurance claims"
+  },
+  {
+    "id": 85,
+    "keyword": "ecommerce fraud",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Online shopping fraud"
+  },
+  {
+    "id": 86,
+    "keyword": "data exfiltration",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Unauthorized data transfer"
+  },
+  {
+    "id": 87,
+    "keyword": "insider threat",
+    "category": "data breach",
+    "severity": "medium",
+    "description": "Internal data misuse"
+  },
+  {
+    "id": 88,
+    "keyword": "cloud misconfiguration",
+    "category": "data breach",
+    "severity": "medium",
+    "description": "Misconfigured cloud storage"
+  },
+  {
+    "id": 89,
+    "keyword": "public bucket leak",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Public cloud storage leak"
+  },
+  {
+    "id": 90,
+    "keyword": "open database exposure",
+    "category": "data breach",
+    "severity": "high",
+    "description": "Unsecured databases exposed"
+  },
+  {
+    "id": 91,
+    "keyword": "worm propagation",
+    "category": "malware",
+    "severity": "high",
+    "description": "Self-spreading malware"
+  },
+  {
+    "id": 92,
+    "keyword": "fileless malware",
+    "category": "malware",
+    "severity": "high",
+    "description": "Memory-based malware"
+  },
+  {
+    "id": 93,
+    "keyword": "remote code execution",
+    "category": "malware",
+    "severity": "high",
+    "description": "Executing remote commands"
+  },
+  {
+    "id": 94,
+    "keyword": "command and control",
+    "category": "malware",
+    "severity": "high",
+    "description": "C2 server communication"
+  },
+  {
+    "id": 95,
+    "keyword": "payload delivery",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Malware payload delivery"
+  },
+  {
+    "id": 96,
+    "keyword": "unauthorized api access",
+    "category": "unauthorized access",
+    "severity": "medium",
+    "description": "API misuse"
+  },
+  {
+    "id": 97,
+    "keyword": "privileged account abuse",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Misuse of privileged accounts"
+  },
+  {
+    "id": 98,
+    "keyword": "session hijacking",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Taking over user sessions"
+  },
+  {
+    "id": 99,
+    "keyword": "credential reuse attack",
+    "category": "unauthorized access",
+    "severity": "medium",
+    "description": "Reusing stolen credentials"
+  },
+  {
+    "id": 100,
+    "keyword": "unauthorized database query",
+    "category": "unauthorized access",
+    "severity": "medium",
+    "description": "Illegal database access"
+  },
+  {
+    "id": 101,
+    "keyword": "deepfake scam",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "AI-generated fraud"
+  },
+  {
+    "id": 102,
+    "keyword": "crypto rug pull",
+    "category": "fraud",
+    "severity": "high",
+    "description": "Crypto project scam"
+  },
+  {
+    "id": 103,
+    "keyword": "fake investment scheme",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Investment fraud"
+  },
+  {
+    "id": 104,
+    "keyword": "online lottery scam",
+    "category": "fraud",
+    "severity": "low",
+    "description": "Fake lottery scam"
+  },
+  {
+    "id": 105,
+    "keyword": "job scam",
+    "category": "fraud",
+    "severity": "low",
+    "description": "Fake job offers"
+  },
+  {
+    "id": 106,
+    "keyword": "supply chain attack",
+    "category": "malware",
+    "severity": "high",
+    "description": "Attack via software supply chain"
+  },
+  {
+    "id": 107,
+    "keyword": "dns spoofing",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Redirecting DNS traffic"
+  },
+  {
+    "id": 108,
+    "keyword": "man in the middle",
+    "category": "malware",
+    "severity": "high",
+    "description": "Intercepting communication"
+  },
+  {
+    "id": 109,
+    "keyword": "network sniffing",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Capturing network traffic"
+  },
+  {
+    "id": 110,
+    "keyword": "packet injection",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Injecting malicious packets"
+  },
+  {
+    "keyword": "exploit kit",
+    "category": "unauthorized access",
+    "severity": "high",
+    "description": "Live generated threat activity",
+    "id": 111
+  },
+  {
+    "keyword": "admin panel access",
+    "category": "malware",
+    "severity": "medium",
+    "description": "Live generated threat activity",
+    "id": 112
+  },
+  {
+    "keyword": "exploit kit",
+    "category": "malware",
+    "severity": "low",
+    "description": "Live generated threat activity",
+    "id": 113
+  },
+  {
+    "keyword": "phishing kit",
+    "category": "fraud",
+    "severity": "medium",
+    "description": "Live generated threat activity",
+    "id": 114
+  }
+]
