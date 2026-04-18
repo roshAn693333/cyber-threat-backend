@@ -4,52 +4,80 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
-app.use(cors());
 
+// ✅ MIDDLEWARE (must come first)
+app.use(cors());
+app.use(express.json());
+
+// 📁 FILE PATH
 const filePath = path.join(__dirname, "data/threats.json");
 
-// Read data
+// 📖 READ DATA
 const getData = () => {
-  const data = fs.readFileSync(filePath);
+  const data = fs.readFileSync(filePath, "utf-8");
   return JSON.parse(data);
 };
 
+// 💾 WRITE DATA
+const saveData = (data) => {
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+};
+
+// 🏠 ROOT ROUTE (fixes "Cannot GET /")
+app.get("/", (req, res) => {
+  res.send("Cyber Threat Radar Backend is running 🚀");
+});
+
 // 🔍 SEARCH + FILTER
 app.get("/api/threats/search", (req, res) => {
-  const { keyword = "", category = "", severity = "" } = req.query;
+  try {
+    const { keyword = "", category = "", severity = "" } = req.query;
 
-  let data = getData();
+    let data = getData();
 
-  let results = data.filter(item =>
-    item.keyword.toLowerCase().includes(keyword.toLowerCase()) &&
-    item.category.toLowerCase().includes(category.toLowerCase()) &&
-    item.severity.toLowerCase().includes(severity.toLowerCase())
-  );
+    let results = data.filter((item) =>
+      item.keyword.toLowerCase().includes(keyword.toLowerCase()) &&
+      item.category.toLowerCase().includes(category.toLowerCase()) &&
+      item.severity.toLowerCase().includes(severity.toLowerCase())
+    );
 
-  res.json(results);
+    res.json(results);
+  } catch (err) {
+    res.status(500).json({ error: "Error filtering data" });
+  }
 });
 
 // 📄 GET ALL
 app.get("/api/threats", (req, res) => {
-  res.json(getData());
+  try {
+    res.json(getData());
+  } catch (err) {
+    res.status(500).json({ error: "Error reading data" });
+  }
 });
-
-app.listen(5000, () => {
-  console.log("🔥 Server running on port 5000");
-});
-app.use(express.json());
 
 // ➕ ADD THREAT
 app.post("/api/threats", (req, res) => {
-  const newThreat = req.body;
+  try {
+    const newThreat = req.body;
 
-  const data = getData();
+    const data = getData();
 
-  newThreat.id = data.length + 1;
+    newThreat.id = data.length + 1;
 
-  data.push(newThreat);
+    data.push(newThreat);
 
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    saveData(data);
 
-  res.json({ message: "Threat added successfully" });
+    res.json({ message: "Threat added successfully" });
+  } catch (err) {
+    res.status(500).json({ error: "Error adding threat" });
+  }
+});
+
+// ✅ PORT FIX (VERY IMPORTANT FOR RENDER)
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log("🔥 Server running on port " + PORT);
 });
